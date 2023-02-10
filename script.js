@@ -3,12 +3,12 @@ function toggleMode() {
   html.classList.toggle("light")
 
   // pegar a tag img
-  const img = document.querySelector('#profile img')
+  const img = document.querySelector("#profile img")
 
   //substituir a imagem
   if (html.classList.contains("light")) {
-    img.setAttribute('src', './assets/Ellipse.png')
+    img.setAttribute("src", "./assets/Ellipse.png")
   } else {
-    img.setAttribute('src', './assets/avatar.png')
+    img.setAttribute("src", "./assets/Avatar.png")
   }
 }
